@@ -8,5 +8,21 @@
 </head>
 <body>
     <h1>AN ONLINE STORE APP</h1>
+    <img id="image" src="Furniture.jfif">
+
+        <script type = "text/javascript">
+            var image = document.getElementById("image");
+            var currentPos = 0;
+            var images = ["foto1.jpg", "foto2.jpg", "foto3.jpg"]
+
+            function volgendefoto() {
+                if (++currentPos >= images.length)
+                    currentPos = 0;
+
+                image.src = images[currentPos];
+            }
+
+            setInterval(volgendefoto, 3000);
+        </script>
 </body>
 </html>
