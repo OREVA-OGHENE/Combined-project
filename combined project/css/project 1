@@ -1,0 +1,15 @@
+html {
+    background-color: #608699;
+    line-height: 1.7;
+  }
+  
+  body {
+    font-family: Cambria;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+img {
+    max-width:100%;
+    height:auto;
+}
